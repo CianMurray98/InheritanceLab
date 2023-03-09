@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-public class test {
-    public static void main(final String[] args) {
+public class test extends person {
+    public static void main( String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter Customer Name: ");
+        System.out.println("Enter Name: ");
         String name = in.nextLine();
-        System.out.println("Enter Customer Address: ");
+        System.out.println("Enter Address: ");
         String address = in.nextLine();
-        System.out.println("Enter Customer Telephone: ");
+        System.out.println("Enter Telephone: ");
         String telephone = in.nextLine();
-        System.out.println("Would you like to receive mail? y/n ");
+        System.out.println("Would you like to be on our mailing list? y/n ");
         Boolean mail;
 
         if(in.nextLine() == "y") {
@@ -22,10 +22,11 @@ public class test {
         customer.setName(name);
         customer.setAddress(address);
         customer.setTelephone(telephone);
+        customer.setMailingList(mail);
 
         System.out.println("Name: " + customer.getName());
         System.out.println("Address: " + customer.getAddress());
-        System.out.println("Telephone: " + customer.getTelephone());
+        System.out.println("Telephone Number: " + customer.getTelephone());
         System.out.println("Wants to receive mail: " + String.valueOf(customer.getMailingList()));
 
     }

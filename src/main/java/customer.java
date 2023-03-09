@@ -3,7 +3,7 @@ class Customer extends person {
     String customerNumber;
     Boolean mailingList;
 
-    public Customer(String s, Boolean mail) {
+    public Customer(String customerNumber, Boolean mailingList) {
         super();
         this.customerNumber = customerNumber;
         this.mailingList = mailingList;
