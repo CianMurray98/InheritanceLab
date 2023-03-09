@@ -1,22 +1,25 @@
 
-public class customer extends person{
-    private String CustomerNumber;
-    Boolean MailingList;
+class Customer extends person {
+    String customerNumber;
+    Boolean mailingList;
 
-    public customer(){
+    public Customer(String s, Boolean mail) {
+        super();
+        this.customerNumber = customerNumber;
+        this.mailingList = mailingList;
     }
-
-    public customer(String CustomerNumber, Boolean MailingList, String Name, String Address, double TelephoneNumber){
-        super(Name, Address, TelephoneNumber);
-        this.CustomerNumber = CustomerNumber;
-        this.MailingList = MailingList;
+    public String getCustomerNumber() {
+        return customerNumber;
     }
-
-    public String getCustomerNumber() { return CustomerNumber; }
-    public void setCustomerNumber(String CustomerNumber) { this.CustomerNumber = CustomerNumber; }
-
-    public Boolean getMailingList() { return MailingList; }
-    public void setMailingList(Boolean MailingList) { this.MailingList = MailingList; }
-
+    public void setCustomerNumber(String customerNumber) {
+        this.customerNumber = customerNumber;
+    }
+    public Boolean getMailingList() {
+        return mailingList;
+    }
+    public void setMailingList(Boolean mailingList) {
+        this.mailingList = mailingList;
+    }
 
 }
+

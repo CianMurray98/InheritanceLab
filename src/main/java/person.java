@@ -1,23 +1,27 @@
-
 public class person {
-    private String Name;
-    private String Address;
-    private double TelephoneNumber;
+    String name, address, telephone;
 
-    public person(){
+    private void Person (String name, String address, String telephone) {
+        this.name = name;
+        this.address = address;
+        this.telephone = telephone;
     }
-
-    public person(String Name, String Address, double TelephoneNumber){
-        this.Name = Name;
-        this.Address = Address;
-        this.TelephoneNumber = TelephoneNumber;
+    public String getName() {
+        return name;
     }
-    public String getName() { return Name; }
-    public void setName(String Name) { this.Name = Name; }
-
-    public String getAddress() { return Address; }
-    public void setAddress(String Address) { this.Address = Address; }
-
-    public double getTelephoneNumber() { return TelephoneNumber; }
-    public void setTelephoneNumber(double TelephoneNumber) { this.TelephoneNumber = TelephoneNumber; }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getAddress() {
+        return address;
+    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    public String getTelephone() {
+        return telephone;
+    }
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
 }
