@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01c26a7f-9611-49a0-ac38-a80abeb27df4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/atu/person/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/gmit/person/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/person.java" afterDir="false" />
+    <list default="true" id="01c26a7f-9611-49a0-ac38-a80abeb27df4" name="Changes" comment="Created Person class with appropriate constructor and mutator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,6 +54,18 @@
       <option name="presentableId" value="Default" />
       <updated>1678362231515</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created Person class with appropriate constructor and mutator">
+      <created>1678363593951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678363593951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Person class with appropriate constructor and mutator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Person class with appropriate constructor and mutator" />
   </component>
 </project>
